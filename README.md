@@ -77,7 +77,6 @@ A modern music library application built with React, Next.js, and micro frontend
 
 ### Production Build
 
-\`\`\`bash
 npm run build
 npm start
 \`\`\`
@@ -202,23 +201,6 @@ The current version includes the music library as a component within the main ap
 3. **Independent Deployment**: Deploy micro frontend separately
 4. **Dynamic Loading**: Load micro frontend at runtime
 
-### Module Federation Setup (Future Enhancement)
-
-\`\`\`javascript
-// webpack.config.js for micro frontend
-module.exports = {
-mode: 'development',
-plugins: [
-new ModuleFederationPlugin({
-name: 'musicLibrary',
-filename: 'remoteEntry.js',
-exposes: {
-'./MusicLibrary': './src/components/MusicLibrary'
-}
-})
-]
-}
-\`\`\`
 
 ## 🤝 Contributing
 
@@ -232,16 +214,3 @@ exposes: {
 
 This project is licensed under the MIT License.
 
-## 🆘 Support
-
-For issues and questions:
-
-1. Check the GitHub Issues page
-2. Create a new issue with detailed description
-3. Include steps to reproduce any bugs
-
----
-
-**Live Demo**: [Deployed Application URL]
-**Repository**: [GitHub Repository URL]
-\`\`\`
