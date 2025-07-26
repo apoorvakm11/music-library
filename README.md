@@ -57,20 +57,20 @@ A modern music library application built with React, Next.js, and micro frontend
 ### Local Development
 
 1. **Clone the repository**
-   \`\`\`bash
+   
    git clone <repository-url>
    cd music-library-main
-   \`\`\`
+   
 
 2. **Install dependencies**
-   \`\`\`bash
+   
    npm install
-   \`\`\`
+   
 
 3. **Start development server**
-   \`\`\`bash
+   
    npm run dev
-   \`\`\`
+   
 
 4. **Open in browser**
    Navigate to \`http://localhost:3000\`
@@ -79,7 +79,7 @@ A modern music library application built with React, Next.js, and micro frontend
 
 npm run build
 npm start
-\`\`\`
+
 
 ## 🏗️ Architecture Overview
 
